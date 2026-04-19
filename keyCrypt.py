@@ -147,7 +147,7 @@ class KeyCrypt:
 
 file = None
 for item in os.listdir():
-	if os.path.isfile(item) and item not in ["keyCrypt.py", "README.txt", "requirements.txt"]:
+	if os.path.isfile(item) and item not in [".gitignore", "keyCrypt.py", "README.txt", "requirements.txt"]:
 		file = item
 		break
 
